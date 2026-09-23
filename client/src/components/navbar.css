@@ -1,0 +1,52 @@
+.logoImage {
+    width: 250px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: 249px 60px
+}
+
+.searchImage {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.search-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+}
+
+.computerImage {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 750px;
+    height: 500px;
+
+
+}
+
+.homepgeImage {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 120px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.searchIcon{
+    background-color: #000;
+    input {
+       border: 1px solid #ccc;
+    }
+}
