@@ -37,9 +37,10 @@ app.use("/api/courses", courseRoutes);
 app.use("/api/course-requests", courseRequestRoutes);
 app.use("/api/feedback", feedbackRoutes);
 // MongoDB connection
+const MONGO_URI = 'mongodb://mydatabase'; // dummy URI, replace with your actual MongoDB connection string
 mongoose
   .connect(
-    "mongodb+srv://locha:zje0zKZBn3wUA3L5@cluster0.g2jfxpg.mongodb.net/lochaTest"
+    MONGO_URI
   )
   .then(() => console.log("✅ MongoDB connected"))
   .catch((err) =>
